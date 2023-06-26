@@ -1,10 +1,10 @@
 # Application Deployment
 
-This repository contains the code and instructions for deploying a React and Node Application on AWS using Terraform. This infrastructure consists of two Auto Scaling Group (ASG) with desired capacity set to 1, two load balancers and a jump server. The AWS external load balancer acts as the single entry point, terminating SSL and route handling.
+This repository contains the infrastructure for deploying a React and Node Application on AWS using Terraform. The infrastructure consists of two Auto Scaling Group (ASG) with desired capacity set to 1, two load balancers and a jump server. The AWS external load balancer acts as the single entry point, terminating SSL and route handling.
 
 ## Task Overview
 
-The task involves creating an infrastructure on AWS to host a React frontend Application and Node backend Application. The infrastructure should consider scalability, efficiency, and maintainability. Expected Deliverables include Documentation (), Infrastructure-as-Code(), Pipeline ([]) Configuration, Sample Application ([]).
+The task involves creating an infrastructure on AWS to host a React frontend Application and Node backend Application. The infrastructure should consider scalability, efficiency, and maintainability. Expected Deliverables include Documentation, Infrastructure-as-Code, Pipeline Configuration [emart-frontend](https://github.com/Einsteiniumeinsteinian/emart-frontend/tree/main/.github/workflows), Sample Application [emart-frontend](https://github.com/Einsteiniumeinsteinian/emart-frontend).
 
 ## Layout
 
@@ -86,5 +86,6 @@ You can access the deployed Application at the following URL: <https://amorserv-
 9. Custom tcp ports could be used to improve security
 10. Notification handling.  
 11. Impoved git management.
+12. pipeline for infra deployment can be automated
 
 **Please note that this readme provides an overview the full deployment. However, As of now, only the Frontend Infrastructure and application can be deployed.**
